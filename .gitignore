@@ -1,2 +1,5 @@
-build/**
-extern/**
+build/*
+extern/pybind11*/
+
+# Include these files
+!build/*.so
