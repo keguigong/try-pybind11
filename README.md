@@ -1,6 +1,9 @@
 # try-pybind11
 
-Watch the tutorial from: https://www.bilibili.com/video/BV1jr421W71p.
+Watch the tutorial from:
+
+- Try `pybind11`: https://www.bilibili.com/video/BV1jr421W71p
+- Performance comparison by matrix `Dot` calculation: https://www.bilibili.com/video/BV19w4m117yq
 
 ```bash
 ➜  mkdir build
