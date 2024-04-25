@@ -16,3 +16,4 @@ envs/
 
 # Include these files
 !build/*.so
+!extern/pybind11*/README*
