@@ -1,10 +1,18 @@
+**/.DS_Store
+
 # Editor configurations
-.vscode/*
-.idea/*
+.vscode/
+.idea/
 
 # Build files
-build/*
-extern/pybind11*/
+build/
+extern/
+
+# Python environment
+venv/
+.conda/
+envs/
+**/__pycache__
 
 # Include these files
 !build/*.so
