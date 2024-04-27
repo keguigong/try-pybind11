@@ -1,8 +1,14 @@
 # try-pybind11
 
+## Prerequisites
+
+- Download and extract `pybind11`, put the files under `external` folder
+- Make sure that C++ compiler is installed
+- Make sure that Python is installed
+
 ## Example to Use `pybind11`
 
-Compile `cpp` file to `.so` using `pybind11`.
+Compile `.cpp` file to `.so` using `pybind11`.
 
 ```txt
 # CMakeLists.txt
@@ -20,7 +26,7 @@ $ cmake ..
 $ make
 ```
 
-Then we can call C++ methods from python, e.g. `add` method we just defined in C++.
+Then we can call C++ methods from python, e.g. `add()` method we just defined in C++.
 
 ```bash
 $ build git:(main) ✗ ipython
